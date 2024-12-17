@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --orange:#f9ba60;
-    --pink:#e9768f;
+    --orange:#f960b9;
+    --pink:#e976df;
     --black: #1d1c1c;
     --white: #fff;
     --light-color:#666;
@@ -49,14 +49,14 @@ section{
   display: inline-block;
   padding: .8rem 3rem;
   border-radius: .5rem;
-  border: .2rem solid var(--orange);
-  color: var(--orange);
+  border: .2rem solid var(--purple);
+  color: var(--purple);
   background: none;
   cursor: pointer;
 }
 
 .btn:hover{
-  background: var(--orange);
+  background: var(--purple);
   color: var(--white);
 }
 
@@ -81,7 +81,7 @@ section{
 }
 
 .header .logo i{
-  color: var(--orange);
+  color: var(--purple);
 }
 
 .header .navbar a{
@@ -92,7 +92,7 @@ section{
 
 .header .navbar a:hover,
 .header .icons div:hover{
-  color: var(--orange);
+  color: var(--purple);
 }
 
 .header .icons div{
@@ -146,7 +146,7 @@ section{
 }
 
 .header .login-form p a{
-  color: var(--orange);
+  color: var(--purple);
   text-decoration: underline;
 }
 
@@ -161,6 +161,7 @@ section{
   gap: 1.5rem;
   align-items: center;
   position: relative;
+  padding-bottom: 240px;
 }
 
 .home .content{
@@ -174,14 +175,15 @@ section{
 }
 
 .home .content h3 span{
-  color: var(--orange);
+  color: var(--purple);
 }
 
 .home .content p{
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   color: var(--light-color);
   line-height: 1.8;
   padding: 1rem 0;
+  margin-bottom: 90px;
 }
 
 .home .image{
@@ -206,7 +208,7 @@ section{
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 107px;
+  height: 17px;
   transform: rotateY(180deg);
 }
 
