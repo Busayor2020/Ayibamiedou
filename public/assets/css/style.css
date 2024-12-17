@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --orange:#f9ba60;
-    --pink:#e9768f;
+    --orange: #833cbd;
+    --pink:#833cbd;
     --black: #1d1c1c;
     --white: #fff;
     --light-color:#666;
@@ -174,7 +174,7 @@ section{
 }
 
 .home .content h3 span{
-  color: var(--orange);
+  color: #833cbd;
 }
 
 .home .content p{
@@ -191,6 +191,11 @@ section{
 .home .image img{
   width: 100%;
   padding: 4rem;
+  border-radius: 20px;
+}
+
+.image-hero {
+  border-radius: 20px !important;
 }
 
 .custom-shape-divider-bottom-1684324473 {
@@ -206,12 +211,12 @@ section{
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 107px;
+  height: 57px;
   transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1684324473 .shape-fill {
-  fill: var(--pink);
+  fill: #833cbd;
 }
 
 /* end */
@@ -219,7 +224,7 @@ section{
 /* about us */
 
 .about{
-  background: var(--pink);
+  background: #833cbd;
 }
 
 .about .row{
@@ -236,8 +241,8 @@ section{
 .about .row .image img{
   width: 100%;
   height: 100%;
+  border-radius: 50px;
 }
-
 .about .row .content{
   flex: 1 1 40rem;
 }
@@ -417,6 +422,7 @@ section{
   height: 100%;
   position: relative;
   overflow: hidden;
+  
 }
 
 .gallery .gallery-container .box img{
@@ -556,7 +562,7 @@ section{
 /* footer */
 
 .footer{
-  background: var(--pink);
+  background: #833cbd;
 }
 
 .footer .box-container{
